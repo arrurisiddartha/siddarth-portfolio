@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Siddartha Arruri - UI/UX Developer, Graphic Designer, and AI Automation Enthusiast. Blending design, development, and AI for innovative solutions.">
+    <meta name="keywords" content="UI/UX, Graphic Design, AI Automation, Figma, Adobe XD, n8n, ChatGPT">
+    <meta name="author" content="Siddartha Arruri">
+    <title>Siddartha Arruri | UI/UX Developer & AI Enthusiast</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header with Nav and Scroll Progress -->
+    <header class="header">
+        <div class="scroll-progress"></div>
+        <nav class="nav">
+            <div class="logo">SA</div>
+            <ul class="nav-menu">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#ai-creations">AI Creations</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button class="dark-mode-toggle" id="darkModeToggle">🌙</button>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-tagline">I Design. I Develop. I Automate.</h1>
+            <p class="hero-subtext">Hi, I’m Siddartha — a UI/UX Developer, Graphic Designer, and AI Automation Creator.</p>
+            <a href="#projects" class="cta-button">View My Work</a>
+        </div>
+        <div class="hero-bg"></div> <!-- Geometric overlay -->
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-grid" data-aos="fade-up">
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop" alt="Siddartha Arruri - Profile Photo" loading="lazy">
+                </div>
+                <div class="about-text">
+                    <h2>About Me</h2>
+                    <p>With a passion for pixels and algorithms, I blend creative design with cutting-edge AI to craft intuitive experiences. My journey started in graphic design, evolved into UI/UX development, and now focuses on automating workflows with tools like n8n and Midjourney. Let's create the future together.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Skills</h2>
+            <div class="skills-grid" data-aos="fade-up" data-aos-delay="100">
+                <div class="skill-category">
+                    <h3>UI/UX Design</h3>
+                    <ul>
+                        <li>Wireframing</li>
+                        <li>Prototyping</li>
+                        <li>Figma</li>
+                        <li>Adobe XD</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Graphic Design</h3>
+                    <ul>
+                        <li>Photoshop</li>
+                        <li>Illustrator</li>
+                        <li>Branding</li>
+                        <li>Motion Design</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>AI & Automation</h3>
+                    <ul>
+                        <li>Prompt Engineering</li>
+                        <li>Workflow Automation</li>
+                        <li>n8n</li>
+                        <li>ChatGPT, Midjourney</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Projects</h2>
+            <div class="projects-grid" data-aos="fade-up" data-aos-delay="100">
+                <!-- Project 1 -->
+                <div class="project-card" data-project="1">
+                    <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop" alt="Project 1: E-Commerce App" loading="lazy">
+                    <h3>E-Commerce UI Kit</h3>
+                    <p>Modern responsive design for online shopping.</p>
+                </div>
+                <!-- Project 2 -->
+                <div class="project-card" data-project="2">
+                    <img src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=400&h=300&fit=crop" alt="Project 2: Branding Suite" loading="lazy">
+                    <h3>Brand Identity for Startup</h3>
+                    <p>Complete visual identity with motion graphics.</p>
+                </div>
+                <!-- Project 3 -->
+                <div class="project-card" data-project="3">
+                    <img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=400&h=300&fit=crop" alt="Project 3: AI Dashboard" loading="lazy">
+                    <h3>AI Analytics Dashboard</h3>
+                    <p>Interactive prototype built in Figma.</p>
+                </div>
+                <!-- Project 4 -->
+                <div class="project-card" data-project="4">
+                    <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=400&h=300&fit=crop" alt="Project 4: Mobile App" loading="lazy">
+                    <h3>Fitness Tracker App</h3>
+                    <p>UX flows and wireframes for health tech.</p>
+                </div>
+                <!-- Project 5 -->
+                <div class="project-card" data-project="5">
+                    <img src="https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=400&h=300&fit=crop" alt="Project 5: Logo Design" loading="lazy">
+                    <h3>Tech Logo Series</h3>
+                    <p>Minimalist logos using Illustrator.</p>
+                </div>
+                <!-- Project 6 -->
+                <div class="project-card" data-project="6">
+                    <img src="https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=400&h=300&fit=crop" alt="Project 6: Automation Tool" loading="lazy">
+                    <h3>Social Media Automator</h3>
+                    <p>n8n workflow for content scheduling.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- AI Creations Section -->
+    <section id="ai-creations" class="ai-creations">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">AI Creations</h2>
+            <div class="ai-grid" data-aos="fade-up" data-aos-delay="100">
+                <!-- AI Creation 1 -->
+                <div class="ai-card" data-ai="1">
+                    <img src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=400&h=300&fit=crop" alt="AI Creation 1: Futuristic Cityscape" loading="lazy">
+                    <p>Midjourney prompt: 'Futuristic cityscape in golden hues, cyberpunk style' – Used for branding concepts.</p>
+                </div>
+                <!-- AI Creation 2 -->
+                <div class="ai-card" data-ai="2">
+                    <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=300&fit=crop" alt="AI Creation 2: Abstract Pattern" loading="lazy">
+                    <p>ChatGPT + Midjourney: Generated patterns for UI backgrounds via iterative prompting.</p>
+                </div>
+                <!-- AI Creation 3 -->
+                <div class="ai-card" data-ai="3">
+                    <img src="https://images.unsplash.com/photo-1541701494587-cb58502866ab?w=400&h=300&fit=crop" alt="AI Creation 3: Workflow Diagram" loading="lazy">
+                    <p>n8n automation: AI-assisted diagram for email workflows.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Get In Touch</h2>
+            <form class="contact-form" action="https://formspree.io/f/YOUR_FORMSPREE_ENDPOINT" method="POST" data-aos="fade-up" data-aos-delay="100">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+            <div class="social-links" data-aos="fade-up" data-aos-delay="200">
+                <a href="https://linkedin.com/in/siddartha-arruri" target="_blank" rel="noopener">LinkedIn</a>
+                <a href="https://behance.net/siddartha" target="_blank" rel="noopener">Behance</a>
+                <a href="https://github.com/siddartha" target="_blank" rel="noopener">GitHub</a>
+                <a href="https://dribbble.com/siddartha" target="_blank" rel="noopener">Dribbble</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2023 Siddartha Arruri. All rights reserved.</p>
+    </footer>
+
+    <!-- Modal for Projects/AI -->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div id="modal-body"></div>
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
